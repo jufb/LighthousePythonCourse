@@ -26,8 +26,12 @@ step4 = "Repeat\n"
 print(step1+step2+step3+step4)
 
 # Substrings
+# The format is this: `string[start:end]`. 
+# If the `end` is omitted, the returned substring will be from `start` to the end of the string. 
+# If `start` is ommitted, the returned substring will be from the beginning of the string to the character just before `end`.
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 print("The first letter of the alphabet is "+ alphabet[0] + " \nThe last letter of the alphabet is "+ alphabet[-1])
 print("The first five letters of the alphabet are " + alphabet[:5])
 print("The five letters in the middle of the alphabet are " + alphabet[11:16])
 print("The last ten letters of the alphabet are " + alphabet[10:])
+
