@@ -35,3 +35,9 @@ print("The first five letters of the alphabet are " + alphabet[:5])
 print("The five letters in the middle of the alphabet are " + alphabet[11:16])
 print("The last ten letters of the alphabet are " + alphabet[10:])
 
+# Substring replacement
+print("\nThe first actual name is: " +fullName)
+differentName = fullName.replace(fullName, "Juliana Ferreira Borges")
+print("I replaced as: " +differentName)
+differentName2 = fullName.replace("Juliana","J")
+print("I abbreviated my name as: " +differentName2)
