@@ -1,0 +1,33 @@
+material = "snow"
+shape = "ball"
+projectile = material + shape
+print(projectile)
+
+# What happens if you concatenate "firstName" to "lastName" without the space?
+firstName = "Juliana"
+lastName = "Borges"
+fullName = firstName + " " + lastName
+print(fullName)
+
+# savory and sweet are variables containing strings; " and " is a string literal.
+# Notice the spaces before and after the word "and."
+# What happens if those are missing?
+savory = "peanut butter"
+sweet = "jelly"
+sandwich = savory + " and " + sweet
+print(sandwich)
+
+# String can have built-in whitespace (\n for newline is a type of whitespace)
+# Concatenation can happen inside of the print statement.
+step1 = "Eat\n"
+step2 = "Sleep\n"
+step3 = "Code\n"
+step4 = "Repeat\n"
+print(step1+step2+step3+step4)
+
+# Substrings
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print("The first letter of the alphabet is "+ alphabet[0] + " \nThe last letter of the alphabet is "+ alphabet[-1])
+print("The first five letters of the alphabet are " + alphabet[:5])
+print("The five letters in the middle of the alphabet are " + alphabet[11:16])
+print("The last ten letters of the alphabet are " + alphabet[10:])
